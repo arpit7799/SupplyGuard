@@ -1,4 +1,4 @@
-# SupplyGuard
+# 🚚 SupplyGuard
 
 ## AI-Powered Supply Chain Risk Monitoring & Analysis Platform
 
@@ -6,7 +6,7 @@ SupplyGuard is an intelligent supply chain monitoring platform designed to ident
 
 ---
 
-# Problem Statement
+# 🎯 Problem Statement
 
 Global supply chains are vulnerable to disruptions caused by geopolitical events, natural disasters, transportation issues, market fluctuations, and operational bottlenecks.
 
@@ -22,36 +22,41 @@ SupplyGuard addresses this challenge by providing:
 
 ---
 
-# Features
+# ✨ Features
 
-### Risk Monitoring
+## Risk Monitoring
+
 - Identify potential supply chain disruptions
 - Analyze risk severity levels
 - Monitor critical supply chain events
 
-### AI-Powered Analysis
+## AI-Powered Analysis
+
 - Automated risk assessment
 - Intelligent insight generation
 - Data-driven decision support
 
-### Interactive Dashboards
+## Interactive Dashboards
+
 - Risk metrics visualization
 - Trend analysis
 - Performance monitoring
 
-### Geographic Visualization
+## Geographic Visualization
+
 - Interactive maps
 - Global supply chain visibility
 - Regional risk tracking
 
-### Modern User Interface
+## Modern User Interface
+
 - Responsive design
 - Real-time data presentation
 - Interactive visual components
 
 ---
 
-# Tech Stack
+# 🛠 Tech Stack
 
 ## Frontend
 
@@ -80,79 +85,124 @@ SupplyGuard addresses this challenge by providing:
 
 ---
 
-# System Architecture
+# 🏗 System Architecture
 
+```text
 User
-↓
+  ↓
 React Frontend
-↓
+  ↓
 REST API Layer
-↓
+  ↓
 FastAPI Backend
-↓
+  ↓
 Risk Analysis Services
-↓
+  ↓
 Data Processing & Analytics
-↓
+  ↓
 Visualization & Insights
+```
 
 ---
 
-# Project Structure
+# 📂 Project Structure
 
-bash frontend/ ├── src/ ├── components/ ├── pages/ ├── services/  backend/ ├── app/ │   ├── routes/ │   ├── services/ │   ├── models/ │   ├── data/ │   └── main.py 
+```bash
+frontend/
+├── src/
+├── components/
+├── pages/
+└── services/
+
+backend/
+├── app/
+│   ├── routes/
+│   ├── services/
+│   ├── models/
+│   ├── data/
+│   └── main.py
+```
 
 ---
 
-# Installation Guide
+# 🚀 Installation Guide
 
 ## Clone Repository
 
-bash git clone https://github.com/arpit7799/SupplyGuard.git cd SupplyGuard 
+```bash
+git clone https://github.com/arpit7799/SupplyGuard.git
+cd SupplyGuard
+```
 
 ## Backend Setup
 
-bash cd backend  python -m venv venv  source venv/bin/activate  pip install -r requirements.txt  uvicorn app.main:app --reload 
+```bash
+cd backend
+
+python -m venv venv
+
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+uvicorn app.main:app --reload
+```
 
 Backend runs on:
 
-text http://localhost:8000 
-
----
+```text
+http://localhost:8000
+```
 
 ## Frontend Setup
 
-bash cd frontend  npm install  npm run dev 
+```bash
+cd frontend
+
+npm install
+
+npm run dev
+```
 
 Frontend runs on:
 
-text http://localhost:5173 
+```text
+http://localhost:5173
+```
 
 ---
 
-# API Endpoints
+# 🔌 API Endpoints
 
 ## Health Check
 
-http GET / 
+```http
+GET /
+```
 
 ## Risk Analysis
 
-http GET /api/risks 
+```http
+GET /api/risks
+```
 
 ## Dashboard Data
 
-http GET /api/dashboard 
+```http
+GET /api/dashboard
+```
 
 ## Supply Chain Insights
 
-http GET /api/insights 
+```http
+GET /api/insights
+```
 
-Note: Endpoint availability depends on backend configuration.
+> Note: Endpoint availability depends on backend configuration.
 
 ---
 
-# Future Improvements
+# 🔮 Future Improvements
 
 - Real-time event streaming
 - Predictive risk forecasting
@@ -165,25 +215,25 @@ Note: Endpoint availability depends on backend configuration.
 
 ---
 
-# Screenshots
+# 📸 Screenshots
 
 ## Dashboard
 
-Add dashboard screenshot here.
+![Dashboard](screenshots/dashboard.png)
 
 ## Risk Analysis View
 
-Add risk analysis screenshot here.
+![Risk Analysis](screenshots/risk-analysis.png)
 
 ## Global Risk Map
 
-Add map visualization screenshot here.
+![Global Risk Map](screenshots/global-map.png)
 
 ---
 
-# Author
+# 👨‍💻 Author
 
-Arpit Pandey
+**Arpit Pandey**
 
 Computer Science & Engineering Student
 
